@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./footer.css">
+    <style>
+        section, div{
+            border: 2px solid white;
+            padding: 30px;
+            margin: 1px;
+            display: grid;
+
+            grid-template-rows: 300px;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+        }
+        .one, .fourty{
+            grid-column: span 5;
+            height: 150px;
+            display:inline-block;
+            position: sticky;
+        }
+        .seven{
+            grid-row: span 3;
+            display: block;
+        }
+        .two, .twenty,.twentyfive,.thirty,.thirtyfive{
+            display: block;
+        }
+        .one{
+            text-align: center;
+            display: block;
+            font-size: 30px;
+            color: hotpink;
+        }
+        .type{
+            display: grid;
+            grid-template-rows: 50px;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            background-color: darkkhaki;
+            line-height: 5px;
+        }
+        .type:hover{
+            transform: background-color skew(1.2);
+            background-color: darkgreen;
+            transition-duration: 2s;
+        }
+        img:hover{
+            transform: scale(1.3);
+        }
+        .one{
+            transition: color 2s ease-in-out;
+        }
+        .one:hover{
+            color: blue;
+            transition-duration: 3s;
+        }
+        .h2:hover{
+            transform: scale(1.2);
+        }
+        .fourty{
+            line-height: 20px;
+            padding: 35px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="one">
+            <div class="type">
+             <p><a href="">Home</a></p>
+            <p><a href="">Services</a></p>
+            <p><a href="">Contact us</a></p>
+            <p><a href="">About Us</a></p>
+            <p><a href="">Cart</a></p>
+            </div>
+              <p><h2>A@S Fashions</h2>
+                        (Find your new style)</p>
+        </div>
+        <div class="two">
+            <p>
+                <span><h4>Category</h4></span>
+                <input type="checkbox">
+                <label for="">Thsirt</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Neckhsirt</label> 
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Lounghsirt</label> 
+            </p>
+        </div>
+        <div class="three">
+            <img src="https://images.unsplash.com/photo-1593009956971-af32311a1d6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzIwfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="four">
+            <img src="https://images.unsplash.com/photo-1604864380262-271fc1280564?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzE2fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="five">
+            <img src="https://images.unsplash.com/photo-1595306429113-310d88879ee9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzEyfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="six">
+            <img src="https://images.unsplash.com/photo-1635439714465-3ed3e6a122e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjgyfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="seven">
+            <hr>
+            <p>
+                <span><h4>Type</h4></span>
+                <input type="checkbox">
+                <label for="">Tshirt</label>
+            <p>
+             <p>
+                <input type="checkbox">
+                <label for="">sweat Tshirt</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Hoodie</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Roundneck</label>
+            </p>
+            <hr>
+            <p>
+                <span><h4>Brands</h4></span>
+                <input type="checkbox">
+                <label for="">Wrogn</label>
+                <small>(245)</small>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Nike</label>
+                <small>(245)</small>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Gap</label>
+                <small>(245)</small>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">H&M</label>
+                <small>(245)</small>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Puma</label>
+                <small>(245)</small>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Addidas</label>
+                <small>(245)</small>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Roadster</label>
+                <small>(245)</small>
+            </p>
+            <hr>
+            <p>
+                <span><h4>Catogery</h4></span>
+                <input type="checkbox">
+                <label for="">Men</label>
+                <small>(245)</small>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Women</label>
+                <small>(245)</small>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Kids</label>
+                <small>(245)</small>
+            </p>
+            <hr>
+            <p>
+                <span><h4>Discount Range</h4></span>
+                <input type="checkbox">
+                <label for="">10% and above</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">20% and above</label> 
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">30% and above</label> 
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">40% and above</label> 
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">50% and above</label> 
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">60% and above</label> 
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">70% and above</label> 
+            </p>
+        </div>
+        <div class="eight">
+            <img src="https://images.unsplash.com/photo-1617171594207-430a01a9da3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ4fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="nine">
+            <img src="https://images.unsplash.com/photo-1557851114-3f672a50722a?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="245px" height="310px">
+        </div>
+        <div class="ten">
+            <img src="https://images.unsplash.com/photo-1591357092416-bc41883c49b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY3fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="eleven">
+            <img src="https://images.unsplash.com/photo-1620252319907-9f97e137f370?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgwfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="twelve">
+            <img src="https://images.unsplash.com/photo-1625024573124-57a3efa69d7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgyfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="thirteen">
+            <img src="https://images.unsplash.com/photo-1568010071298-47e0b20774b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQ2fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="fourteen">
+            <img src="https://images.unsplash.com/photo-1605640738466-0537278b7b69?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjUxfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="fifteen">
+            <img src="https://images.unsplash.com/photo-1565978771542-0db9ab9ad3de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjU1fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="sixteen">
+            <img src="https://images.unsplash.com/photo-1601063476271-a159c71ab0b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN3ZWF0c2hpcnR8ZW58MHx8MHx8fDA%3D" width="245px" height="310px">
+        </div>
+        <div class="seventeen">
+            <img src="https://images.unsplash.com/photo-1550403648-c1a73c1ebb94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHN3ZWF0c2hpcnR8ZW58MHx8MHx8fDA%3D" width="245px" height="310px">
+        </div>
+        <div class="eighteen">
+            <img src="https://images.unsplash.com/photo-1611817757591-c3f345024273?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHN3ZWF0c2hpcnR8ZW58MHx8MHx8fDA%3D" width="245px" height="310px">
+        </div>
+        <div class="ninteen">
+            <img src="https://images.unsplash.com/photo-1552337557-45792b252a2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHN3ZWF0c2hpcnR8ZW58MHx8MHx8fDA%3D" width="245px" height="310px">
+        </div>
+        <div class="twenty">
+            <hr>
+         <p>
+             <span><h4>Trending wear</h4></span>
+             <input type="checkbox">
+             <label for="">Kurthas</label>
+        <p>
+            <p>
+                <input type="checkbox">
+                <label for="">Sarees</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Dharmavaram Sarees</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Sherwanis</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Lehanga</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Jackets</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Blazzers</label>
+            </p>
+        </div>
+        <div class="twentyone">
+            <img src="https://images.unsplash.com/photo-1596566642185-bc4a80d571f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3ZWF0c2hpcnR8ZW58MHx8MHx8fDA%3D" width="245px" height="310px">
+        </div>
+        <div class="twentytwo">
+            <img src="https://images.unsplash.com/photo-1559134126-571dd3a577e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHN3ZWF0c2hpcnR8ZW58MHx8MHx8fDA%3D" width="245px" height="310px">
+        </div>
+        <div class="twentythree">
+            <img src="https://images.unsplash.com/photo-1516195851888-6f1a981a862e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHN3ZWF0c2hpcnR8ZW58MHx8MHx8fDA%3D" width="245px" height="310px">
+        </div>
+        <div class="twentyfour">
+            <img src="https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="245px" height="310px">
+        </div>
+        <div class="twentyfive">
+            <p>
+                <span><h4>Colours</h4></span>
+                <input type="checkbox">
+                <label for="">Red</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Olive</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Green</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Orange</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Blue</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">Yellow</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="">White</label>
+            </p>
+            
+            </p>
+        </div>
+        <div class="twentysix">
+            <img src="https://images.unsplash.com/photo-1614571916666-c63be15c1e31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fHN3ZWF0c2hpcnR8ZW58MHx8MHx8fDA%3D" width="245px" height="310px">
+        </div>
+        <div class="twentyseven">
+            <img src="https://images.unsplash.com/photo-1617171594202-100a53bdfe04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="twentyeight">
+            <img src="https://images.unsplash.com/photo-1586746944933-d8112de2c45b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ2fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="twentynine">
+            <img src="https://images.unsplash.com/photo-1544143040-1d8fe7d7ab8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYwfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="thirty"></div>
+        <div class="thirtyone">
+            <img src="https://images.unsplash.com/photo-1632972231967-14a01d87eefc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjExfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="thirtytwo">
+            <img src="https://images.unsplash.com/photo-1599545149127-8ae409e0d778?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE2fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="thirtythree">
+            <img src="https://images.unsplash.com/photo-1580794665070-65a7f2928c62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE5fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="thirtyfour">
+            <img src="https://images.unsplash.com/photo-1622736000556-cbc2ab91f00f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjI3fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="thirtyfive"></div>
+        <div class="thirtysix">
+            <img src="https://images.unsplash.com/flagged/photo-1575829258379-6f9d5d93eefe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjMyfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="thirtyseven">
+            <img src="https://images.unsplash.com/photo-1620252319907-9f97e137f370?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgwfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="thirtyeight">
+           <img src="https://images.unsplash.com/photo-1568010071298-47e0b20774b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQ2fHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww"  width="245px" height="310px">
+        </div>
+        <div class="thirtynine">
+           <img src="https://images.unsplash.com/photo-1564858775545-e2d21c3ceee0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQyfHxzd2VhdHNoaXJ0fGVufDB8fDB8fHww" width="245px" height="310px">
+        </div>
+        <div class="fourty">
+            <hr>
+            <p>
+                <h2>Buy Men Tshirts</h2>
+            </p>
+            <p><h2 style="font-size: medium;">Styling The Tshirt for Men :-</h2></p>
+            <p>T-shirts are without a doubt every mans favourite garment. They are versatile, stylish and can be worn in a million different ways. In fact, there are so many varieties when it comes to t-shirts for men that it could be difficult to settle on a particular kind while shopping. A t-shirt can be styled even with shirts for men to create fun ensembles that are semi-formal or smart casual. There is a t-shirt for men that can complement any kind of lowers that you might have in mind, be it track pants, lounge shorts or innerwear.
+
+                You can also select and style a t-shirt for men according to the season and occasion, which means that the same garment could be used to create completely different looks entirely depending on the scenario and weather. However, to be able to do this successfully, you must first have an understanding of styling t-shirts and your personal preference; this includes how you would like to project yourself. Read on to find out more.</p>
+                <p><h2 style="font-size: medium;">SELECT A T-SHIRT FOR MEN ONLINE :-</h2></p>
+                <p>We have an absolutely wide variety of t-shirts for men on Myntra and here are a few of our favourites to start you off in the right direction.
+
+                    GAS Men Black Printed Round Neck T-shirt
+                    
+                    If you are all about that rocker chic look, then this t-shirt for men is surely up your alley. It has a round neckline, short sleeves and a graphic print in front. This can be paired with tapering jeans, sneakers and a leather strap watch.
+                    
+                    Nike Men Blue Polo Collar T-shirt
+                    
+                    Whether you enjoy playing cricket or are a fan of the game, you should definitely have this piece in your collection. It is made of light-weight polyester and boasts Nikes DRI-FIT technology.
+                    
+                    Polo Ralph Lauren Cotton Blend Fleece Pullover
+                    
+                    This t-shirt is inspired by old-school baseball tees and is washed to have a vintage look. The grey melange and navy colours complement cargo pants or lounge shorts and will look great paired with white sneakers.
+                    
+                    GET YOUR SHOPPING ON!
+                    
+                    Visit Myntra and transform your closet with garments for every occasion. We bring you all the top brands at your fingertips, with the best discounts and a wide selection to pick from. So log in to Myntra today and get shopping on-the-go!
+                </p>
+                <ul type="">
+                  <h2 style="font-size: medium;">WHAT ARE THE LATEST TRENDS IN MEN'S T-SHIRTS?</h2>
+                  <li>Here are some of the latest trends in the men's T-shirt categories that you can shop from:</li>
+                  <li>Typography: Men's T-shirts have seen a new trend with culture-defining quotes printed on them. The minimalist look of the T-shirt makes them a perfect option for all sorts of events. They come in a variety of colours and can be paired with a jacket for parties.</li>
+                  <li>Super Hero T-shirts: Men's obsession with comic books has come to an all-time high. Owning a T-shirt of their favourite superhero can generate a sense of pride and motivation.</li>
+
+                </ul>
+                <hr>
+               <!--footer-->
+        <footer class="f1">
+            <div class="d1">
+                
+                <ul type="none">
+                    <h4>A@S Fashions</h4>
+                    <address1>
+                        <li>vinukonda</li>
+                        <li>palndau dis</li>
+                        <li>AndhraPradesh</li>
+                        <li>500659</li>
+                    </address1>
+                </ul>
+            </div>
+            <div class="d1">
+                <ul type="none">
+                <h4>Our Branches</h4>
+                <li>Hyderabad</li>
+                <li>Vijayawada</li>
+                <li>Bengalur</li>
+                <li>Chennai</li>
+                </ul>  
+            </div>
+
+            <div class="d1">
+                <ul type="none">
+                    <h3>Follow Us On</h3>
+                    <li style="color: crimson; font-size: 15px;" class="fa fa-facebook"><a href="" style="color: black;"> FaceBook</a></li> <br><br>
+                <li style="color: crimson; font-size: 15px;" class="fa fa-instagram"><a href="" style="color: black;"> Instagram</a></li> <br><br>
+                <li style="color: crimson; font-size: 15px;" class="fa fa-twitter"><a href="" style="color: black;"> Twitter</a></li> <br><br>
+                <li stylee="color: crimson; font-size: 15px  ;" class="fa fa-linkedin"><a href="" style="color: black;"> Linkedin</a></li>
+                </ul>
+            </div>
+        </footer>
+        </div>
+    </section>
+
+</body>
+</html>
